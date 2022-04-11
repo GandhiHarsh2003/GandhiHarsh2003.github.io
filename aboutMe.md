@@ -1,3 +1,5 @@
-# About Me 
+# About Me
 
 My name is Harsh Gandhi and I am currently a freshman at Quinnipiac University. Ever since i was a little kid, Computer Science has been my passion. I still remember sitting in my first programming class, in high school, where i learned how to print "Hello World". Making small programs on computer felt like big accomplishments. As I went through more classes and studying on my own, I moved on from basic programs to making my first mobile gaming app. I learned App Inventor and then Java in High School. I tried to learn Python on my own by going through books I could find in the library. This passion followed me through college. In college, currently I am a Computer Science and Data Science double major and Mathematics minor.
+
+[Home Page](index.md)
