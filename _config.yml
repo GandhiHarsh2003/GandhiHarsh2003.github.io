@@ -2,3 +2,4 @@ name: My-personal-Website
 title: null
 plugins:
   - jemoji
+theme: jekyll-remote-theme
