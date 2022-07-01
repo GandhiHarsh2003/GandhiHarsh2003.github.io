@@ -1,9 +1,6 @@
 # Welcome to my website!!
 
-My name is Harsh Gandhi. I am 18 years old. I am a freshman at Quinnipiac University. Currently I am a Data Science and Computer Science double major and a Mathematics minor.
-
-![Image](./IMG_5936.jpeg)
-
+My name is Harsh Gandhi. I am 18 years old. I am a freshman at Quinnipiac University. I enrolled as a Data Science and Computer Science double major and a Mathematics minor. Please take a look at my website and projects.
 
 To learn more about me click:
 [About Me](aboutMe.md)
