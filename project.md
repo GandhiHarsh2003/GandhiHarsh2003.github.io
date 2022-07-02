@@ -1,6 +1,6 @@
 #Projects
 
-This are the programming projects I worked and collaborated with my classmates.
+This are some of the projects that I built throughout the freshman year of college. Please click on the specific project link to learn more about them:
 
 - [Maze Project:](https://github.com/GandhiHarsh2003/Maze-Solver)
  This goal of the project is to create a program that can solve very large and complex mazes using a recursive algorithm. This project involves programming a recursive algorithm, implementing an Abstract Data Type (ADT), working with two-dimensional array's, and constants. This project was programed by me, Harsh Gandhi, and Kevin Rodriguez, a Software Engineering undergrad at Quinnipiac.
