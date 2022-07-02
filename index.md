@@ -12,4 +12,4 @@ Research: How does Retargated Advertisement Affect Human Behavior. To read about
 [Retargated Advertisement](RetargatedAdvertisement.md)
 
 Research: How has increasing weight of F1 cars have affected their overall Speed. To read more about this research please click:
-[F1 Cars: Weight VS. Speed](WeightVsSpped.md)
+[F1 Cars: Weight VS. Speed](WeightVsSpeed.md)
