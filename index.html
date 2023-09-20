@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-16">
+    <meta NAME="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <Harsh's Portfolio>
+    </title>
+    <link rel="icon" type="image/x-icon" href="Images/Profile.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc= " crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/7799a5c863.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="style.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="https://github.com/GandhiHarsh2003" target="blank" class="nav__link"><i
+                            class="fa-brands fa-github"></i> &nbsp;
+                    Github</a></li>
+                <li class=" nav__item"><a href="#project" class="nav__link"><i
+                                    class="fa-sharp fa-solid fa-code"></i></i>&nbsp; Projects</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link"><i
+                            class="fa-solid fa-screwdriver-wrench"></i></i>&nbsp; Skills</a>
+                </li>
+                <li class="nav__item"><a href="#education" class="nav__link"><i
+                            class="fa-solid fa-user-graduate"></i></i>&nbsp; Education</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link"><i class="fa-solid fa-envelope"></i> &nbsp;
+                        Contact
+                        Me</a></li>
+                <li class="nav__item"><a
+                        href="https://drive.google.com/file/d/1fUCG3QahyoNSDG7KL4TBkrRITtkcbVNj/view?usp=drive_link"
+                        class="nav__link" target="_blank"><i class="fa-solid fa-file"></i> &nbsp;
+                        Resume</a></li>
+
+                See My Resume
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <center>I am <span class="color__name">Harsh Gandhi</span></center>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro double">I'm a Computer Science student at
+            <a href="https://www.qu.edu/schools/engineering/programs/bachelors-degree/ba-bs-in-computer-science/" class="green--link--underline" target="_blank">Quinnipiac
+                University</a>.
+                where I'm diving into the worlds of Computer Science and Data Science. I'm an enthusiastic explorer, innovator, and always fueled by curiosity about the infinite possibilities that the world of software engineering holds.
+        </p>
+        <img src="Images/MyFace.jpg" alt="My picture" width="450" class="intro__img">
+    </section>
+
+
+    <!-- My Projects -->
+    <section class="projects" id="project">
+        <h2 class="section__title section__title--work">My <span class="color__name--projects">Projects</span></h2>
+    </br>
+        <div class="portfolio">
+            <img src="Images/hiredaipicture.png" alt="Image of my chrome extension" class="portfolio__img">
+            <div class="project_dets">
+                <h2>Hired AI</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/Html-Logo.webp" alt="html-logo's Logo" class="game__img" height="30">
+                    <img src="Images/rest-api-background.png" alt="rest-api's Logo" class="game__img" height="30">
+                    <img src="Images/Css-Logo.webp" alt="css's Logo" class="game__img" height="30">
+                    <img src="Images/JavaScript-logo.png" alt="javascript's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">Developed a user-centric Chrome extension leveraging HTML, CSS, and JavaScript to dynamically
+                    generate tailored cover letters and resume by intelligently analyzing user experience against job
+                    description.
+                    Integrated multiple APIs for precise job data extraction, resume parsing, and adeptly utilized
+                    GPT-3.5 API to craft individualized cover letters, resulting in a 30% efficacy boost and an
+                    exceptional 100%-time savings.
+                    Collaborated with a team of three ensuring seamless task delegation and fostering
+                    intercommunication.
+                    Currently implementing the backend using Express.js to securely perform the program’s operations.
+                </p>
+            </br>
+            <a href="https://github.com/GandhiHarsh2003/CoverLetterGenerator" class="btn--git" target="_blank">
+                Code
+            </a>
+            <a href="Images/hiredai.mp4" class="btn--git" target="_blank">
+                Demo
+            </a>
+            </div>
+        </div>
+    </br>
+        <div class="portfolio fade-in">
+            <img src="Images/project-z.png" alt="SMS picture" class="portfolio__img">
+            <div class="project_dets">
+                <h2>Project Z</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/Java-Logo.png" alt="Java's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">I worked on an open-source RPG game designed for Quinnipiac's SER 225 Course. As part of this
+                    semester-long project, my peers and I collaborated in numerous scrum sprints to develop and enhance
+                    an RPG game written in Java. I collaborated with the scrum master on several reports detailing
+                    program reviews, customer requirements, and prioritized bugs & enhancements. I, Kevin Rodriguez,
+                    Aaryan
+                    Kapoor, Matthew Nova, and Brian Wanamaker created this game, all of which are Quinnipiac Computer
+                    Science and Software Engineering undergrads.
+                    <br>
+                    <br>
+                    <a href="https://github.com/kevin-rodri/ZombieLand" class="btn--git" target="_blank">
+                        Code
+                    </a>
+                    <a href="https://a-r-t.github.io/SER225-Project-Website/semesters/fall2022/teams/project-z"
+                        class="btn--git" target="_blank">
+                        Documentation
+                    </a>
+                </p>
+            </div>
+        </div>
+    </br>
+        <div class="portfolio">
+            <img src="Images/Ocenia.png" alt="Picture of an alarm clock" class="bigger_pic">
+            <div class="project_dets">
+                <h2>Ocenia (Hackathon Winner)</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/Html-Logo.webp" alt="kotlin's Logo" class="game__img" height="30">
+                    <img src="Images/Css-Logo.webp" alt="xml's Logo" class="game__img" height="30">
+                    <img src="Images/JavaScript-logo.png" alt="xml's Logo" class="game__img" height="30">
+                    <img src="Images/rest-api-background.png" alt="xml's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">This sustainability hackathon project addressed the pressing issue of carbon emissions by harnessing the power of machine
+                    learning. We developed a predictive model that assessed and quantified the carbon emissions released
+                    by companies. This model not only estimated the overall carbon footprint but also identified
+                    specific areas such as soil and air pollution where companies contributed the most. With this
+                    data-driven insight, we recommended tailored carbon offset projects to these companies, enabling
+                    them to take targeted actions towards carbon neutrality.
+                </p>
+            </br>
+                    <a href="https://github.com/ankhuetang/CarbonOffset" class="btn--git" target="_blank">
+                        Code
+                    </a>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <img src="Images/stockProject.png" alt="stock" class="bigger_pic">
+            <div class="project_dets">
+                <h2>Stock-Market-Mastery</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/kotlin-logo.png" alt="kotlin's Logo" class="game__img" height="30">
+                    <img src="Images/rest-api-background.png" alt="rest-api's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">An Android application that allows users to learn more about stocks. The user can search through
+                    thousands of stock companies and retain more information about a company's stock. If they're
+                    convinced, the user can purchase that company's stock or continue to look for other stocks. Once a
+                    stock is bought, the user can sell it in return for some profit based on how much they're willing to
+                    sell. This project was worked on alongside Kevin Rodriguez, a Software Engineering 
+                    Undergrad at Quinnipiac University.
+                </p>
+            </br>
+                    <a href="https://github.com/GandhiHarsh2003/Stock-Market-Mastery" class="btn--git" target="_blank">
+                        Code
+                    </a>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <img src="Images/TimeWise.png" alt="TimeWise" class="bigger_pic">
+            <div class="project_dets">
+                <h2>TimeWise (Hackathon winner)</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/kotlin-logo.png" alt="kotlin's Logo" class="game__img" height="30">
+                    <img src="Images/rest-api-background.png" alt="rest-api's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">The android app, TimeWise, allows users to schedule their app usage, automatically switching between
+                    websites and applications to enhance productivity. The outcome was a user-friendly solution that
+                    empowered
+                    individuals to take control of their digital time, resulting in improved productivity and focus. I
+                    collaborated with Kevin Rodriguez and Aaryan Kapoor for this hackathon project.
+                </p>
+            </br>
+                    <a href="https://github.com/MineGamer69/Hackathon" class="btn--git" target="_blank">
+                        Code
+                    </a>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <img src="Images/graphProj.png" alt="Image of my exercise app" class="portfolio__img">
+            <div class="project_dets">
+                <h2>Graphing-And-Grading-System</h2>
+                <div class="aligned">
+                    <span>Made With:&nbsp;</span>
+                    <img src="Images/Java-Logo.png" alt="Java's Logo" class="game__img" height="30">
+                </div>
+                <p class="double">A program teachers would be able to use to keep track of their student's test average. The program is
+                    vital for teachers to identify students who are doing well in the class and who are struggling. Two
+                    data structures were designed and implemented from scratch: ArrayList and queues. The jmathio.jar
+                    and jmathplot.jar libraries were also used (feel free to browse through the repository for the jar
+                    file right here!)to read in the input data and present the graph according to the data. Additional
+                    components would enable teachers to print multiple students' averages on one graph and see how the
+                    overall class performs on the tests. The program was designed and implemented by me and Kevin Rodriguez, a Software Engineering 
+                    Undergrad at Quinnipiac University.
+                </p>
+            </br>
+                    <a href="https://github.com/kevin-rodri/CSC111-Final-Project" class="btn--git" target="_blank">
+                        Code
+                    </a>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="tech__skills" id="skills" style="margin-top: 100px;">
+        <h2 class="section__title section__title--skills"> Technical <span class="color__name--projects">Skills</span>
+        </h2>
+        <div class="skills__img">
+            <img src="Images/Java-Logo.png" alt="Java's Logo" class="coding__img" height="100">
+            <img src="Images/Scala-Logo.png" alt="Scala's Logo" class="coding__img" height="100">
+            <img src="Images/R-Logo.png" alt="R's Logo" class="coding__img" height="100">
+            <img src="Images/Html-Logo.webp" alt="Html's Logo" class="coding__img" height="100">
+            <img src="Images/Css-Logo.webp" alt="Css's Logo" class="coding__img" height="100">
+            <img src="Images/Sql-Logo.png" alt="Sql's Logo" class="coding__img" height="100">
+            <img src="Images/git-logo.png" alt="Git's Logo" class="coding__img" height="100">
+            <img src="Images/kotlin-logo.png" alt="Kotlin's Logo" class="coding__img" height="100">
+            <img src="Images/JavaScript-logo.png" alt="javascript's Logo" class="coding__img" height="100">
+            <img src="Images/rest-api.png" alt="rest-api's Logo" class="coding__img" height="100">
+            <img src="Images/pythonlogo.png" alt="python's Logo" class="coding__img" height="100">
+            <img src="Images/Csharp.png" alt="python's Logo" class="coding__img" height="100">
+        </div>
+
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="section__title section__title--education"> My <span class="color__name--education">Education</span>
+        </h2>
+        <div class="about__education">
+            <div class="education__image">
+                <img src="Images/QULogo.jpg" alt="QU Logo" class="ru_img"
+                    height="200">
+            </div>
+            <div class="education__details">
+                <h4 class="education-year">Expected Graduation: May 2025</h4>
+                <h4>Quinnipiac University</h4>
+                <ul>
+                    <li>Double Major: Computer Science and Data Science</li>
+                </br>
+                    <li>Minor: Mathematics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="contact">
+        <a href="mailto:23gandhiharsh@gmail.com" class="footer__link">23gandhiharsh@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/23harshgandhi/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/GandhiHarsh2003"
+                    target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
+
+    <button id="back-to-top-btn" class="btn-red-show" onclick="scrollToTop()"><i class="fa fa-chevron-up"></i></button>
+
+</body>
+
+</html>
